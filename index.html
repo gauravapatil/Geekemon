@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geekemon</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1 style="text-align: center; font-size:50px; color: yellow;">Geekemon</h1>
+    <div id="search">
+        
+        <select name="type" id="type">
+            <option value="water">water</option>
+            <option value="grass">grass</option>
+            <option value="normal">normal</option>
+            <option value="fire">fire</option>
+            <option value="electric">electric</option>
+
+    
+        </select>
+        <button id="btn">Search by type</button>
+        <input type="text" placeholder="Search pokemon.." id="text">
+        <button id="refresh"><a href="index.html">Refresh</a></button>
+    </div>
+    
+    <div id="pokemon-container"></div>
+     
+
+    <script type="module" src="script.js"></script>
+</body>
+</html>
